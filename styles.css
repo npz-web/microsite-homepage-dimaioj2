@@ -1,1 +1,31 @@
 /* your styles will go here!! */
+
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    background: rgba(0, 0, 0, 0.78);
+    padding: 10px 0px;
+}
+
+nav a { 
+    color: #FFF;
+text-align: center;
+text-decoration: none;
+font-family: Krub;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+/* class is class="whatever name" then u do
+.classname {} */
+
