@@ -11,6 +11,8 @@ body {
     flex-shrink: 0;
     position: center;
     margin-left: -2px;
+    opacity: 85%;
+    object-fit: cover;
 }
 
 nav {
