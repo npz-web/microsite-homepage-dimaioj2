@@ -10,6 +10,7 @@ body {
     height: 600px;
     flex-shrink: 0;
     position: center;
+    margin-left: -2px;
 }
 
 nav {
