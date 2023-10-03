@@ -6,13 +6,11 @@ body {
 }
 
 .logo {
-    width: 1477px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     position: center;
-    margin-left: -2px;
     opacity: 85%;
-    object-fit: cover;
 }
 
 nav {
