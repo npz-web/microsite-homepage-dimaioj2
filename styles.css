@@ -62,10 +62,15 @@ footer {
     text-align: center;
 }
 
+.iconlogos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
 .NYCLOGO {
     width: 25%;
     height: auto;
-    padding-left: 200px;
 }
 
 .LALOGO {
