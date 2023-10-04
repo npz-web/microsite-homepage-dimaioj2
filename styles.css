@@ -16,6 +16,8 @@ body {
 nav {
     background: rgba(0, 0, 0, 0.78);
     padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a { 
@@ -27,8 +29,6 @@ nav a {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin-right: 100px;
-    margin-left: 50px;
 }
 
 h2 {
