@@ -5,80 +5,78 @@ body {
     margin: 0;
 }
 
-.logo {
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    position: center;
-    opacity: 85%;
-}
-
 nav {
-    background: rgba(0, 0, 0, 0.78);
+    background: rgba(255, 255, 255, 0.78);
     padding: 10px 0px;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
 }
 
 nav a { 
-    color: #FFF;
+    color: #000000;
     text-align: center;
     text-decoration: none;
-    font-family: 'Poiret One', cursive;
-    font-size: 20px;
+    font-family: "brother-1816", sans-serif;
+    font-size: 11px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    letter-spacing: 2px;
 }
 
-h2 {
+nav a::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: .5s;
+  }
+  
+nav a:hover::after {
+    width: 100%;
+  }
+
+  a:link{
+    text-decoration: none;
+  }
+
+h1 {
+    background-color: white;
     color: #000;
+    font-family: "brother-1816", sans-serif;
+    font-weight: 10;
     text-align: center;
-    font-family: Gill Sans;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: center;
+    font-size: 30px;
+    letter-spacing: 5px;
     width: auto;
-    margin-top: 50px;
+    margin: 8px auto;
 }
 
 h3 {
     color: #000;
     text-align: center;
-    font-family: Gill Sans;
-    font-size: 25px;
+    text-decoration: none;
+    font-family: "brother-1816", sans-serif;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: normal;
-    position: center;
+    letter-spacing: 1px;
     width: auto;
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
-footer {
-    text-align: center;
-}
-
-.iconlogos{
+.MAINPHOTO{
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
 }
 
-.NYCLOGO {
-    width: 25%;
-    height: auto;
-}
-
-.LALOGO {
-    width: 25%;
-    height: auto;
-}
-
-.CHILOGO {
-    width: 25%;
+.WEBPHOTO {
+    width: 100%;
     height: auto;
 }
