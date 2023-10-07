@@ -84,13 +84,12 @@ h3 {
 
 }
 
-.MAINPHOTO{
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
+.scroll-container{
+    overflow: auto;
+    white-space: nowrap;
 }
 
-.WEBPHOTO {
+.scroll-container img {
     width: 100%;
     height: auto;
 }
