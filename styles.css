@@ -58,8 +58,14 @@ h1 {
     font-size: 33px;
     letter-spacing: 5px;
     margin: 0px;
-    padding: 10px 100%;
+    padding: 10px 38.65%;
     position: fixed;
+    white-space: nowrap;
+    transition: all 1s ease;
+}
+
+h1:hover{
+    letter-spacing: 25px;
 }
 
 h3 {
