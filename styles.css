@@ -56,7 +56,7 @@ h1 {
     font-weight: 10;
     text-align: center;
     font-size: 33px;
-    letter-spacing: 5px;
+    letter-spacing: 15px;
     margin: 0px;
     padding: 10px 38.65%;
     position: fixed;
@@ -65,7 +65,7 @@ h1 {
 }
 
 h1:hover{
-    letter-spacing: 25px;
+    letter-spacing: 40px;
 }
 
 h3 {
