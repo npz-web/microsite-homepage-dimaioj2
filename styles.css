@@ -93,3 +93,25 @@ h3 {
     width: 100%;
     height: auto;
 }
+
+.city-names ul {
+    list-style: none;
+}
+
+.city-names li {
+    padding-top: 20px;
+}
+
+.city-names {
+    color: #000000;
+    text-align: left;
+    font-family: "brother-1816", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    width: auto;
+    padding-left: 60px;
+    padding-top: 25px;
+}
