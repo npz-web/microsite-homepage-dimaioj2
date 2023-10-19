@@ -94,7 +94,21 @@ h3 {
     height: auto;
 }
 
-.blurred-bg {
+.city-names {
+    text-decoration: none;
+    z-index: 1;
+    color: #ffffff;
+    text-align: left;
+    font-family: "brother-1816", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3px;
+    width: auto;
+}
+
+/* .blurred-bg {
     position: absolute;
     z-index: -1;
     overflow: auto;
@@ -106,33 +120,38 @@ h3 {
     height: auto;
     filter: blur(10px);
     opacity: 85%;
-}
+} */
 
 .city-names ul {
     list-style: none;
 }
 
 .city-names li {
-    padding-top: 30px;
-}
-
-.city-names {
-    position: relative;
-    z-index: 1;
-    color: #000000;
-    text-align: left;
-    font-family: "brother-1816", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 3px;
-    width: auto;
     padding-left: 60px;
     padding-top: 25px;
 }
 
 .ny-hover:hover {
     background-image: url('triston-dunn-rfj_wOYQkus-unsplash.jpg');
-    transition: 0.4s;
+}
+
+.chi-hover:hover {
+    background-image: url('aveedibya-dey-wRyQocoKOBA-unsplash.jpg');
+}
+
+.la-hover:hover {
+    background-image: url('cedric-letsch-UZVlSjrIJ3o-unsplash.jpg');
+}
+
+.background-image:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto%;
+    background: rgba(0, 0, 0, 75%);
+    z-index: 1;
+    pointer-events: none; 
 }
