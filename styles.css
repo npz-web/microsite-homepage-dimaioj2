@@ -70,6 +70,21 @@ h1:hover{
 
 h3 {
     color: #000;
+    text-align: left;
+    text-decoration: none;
+    font-family: "brother-1816", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: auto;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+h4 {
+    color: #000;
     text-align: center;
     text-decoration: none;
     font-family: "brother-1816", sans-serif;
@@ -108,25 +123,13 @@ h3 {
     width: auto;
 }
 
-/* .blurred-bg {
-    position: absolute;
-    z-index: -1;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.blurred-bg img {
-    width: 100%;
-    height: auto;
-    filter: blur(10px);
-    opacity: 85%;
-} */
-
 .city-names ul {
     list-style: none;
 }
 
 .city-names li {
+    margin: 0;
+    padding: 0;
     padding-left: 60px;
     padding-top: 25px;
 }
@@ -141,17 +144,4 @@ h3 {
 
 .la-hover:hover {
     background-image: url('cedric-letsch-UZVlSjrIJ3o-unsplash.jpg');
-}
-
-.background-image:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    background: rgba(0, 0, 0, 75%);
-    z-index: 1;
-    pointer-events: none; 
 }
