@@ -1,5 +1,5 @@
 /* your styles will go here!! */
-
+/* homepage */
 
 body {
     margin: 0;
@@ -96,7 +96,6 @@ h4 {
     width: auto;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .scroll-container{
@@ -109,8 +108,9 @@ h4 {
     height: auto;
 }
 
+/* city page */
+
 .city-names {
-    text-decoration: none;
     z-index: 1;
     color: #ffffff;
     text-align: left;
@@ -144,4 +144,60 @@ h4 {
 
 .la-hover:hover {
     background-image: url('cedric-letsch-UZVlSjrIJ3o-unsplash.jpg');
+}
+
+/* nyc subpage */
+.nyc-title {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    font-family: "brother-1816", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.nyc-bio {
+    color: #000;
+    text-align: justify;
+    text-decoration: none;
+    font-family: "brother-1816", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px
+}
+
+.nyc-container {
+    display: flex;
+    justify-content: center; /* horizontally center the grid */
+    align-items: center; /* vertically center the grid */
+    height: auto; 
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 15px;
+}
+
+.grid-item {
+    overflow: hidden; 
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto; 
 }
