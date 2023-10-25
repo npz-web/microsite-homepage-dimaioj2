@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+header {
+    background: white;
+    position: relative;
+    z-index: 20;
+}
+
 nav {
     background: rgba(255, 255, 255, 0.78);
     padding: 10px 0px;
@@ -115,35 +121,57 @@ h4 {
     color: #ffffff;
     text-align: left;
     font-family: "brother-1816", sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 3px;
     width: auto;
+    position: relative;
 }
 
 .city-names ul {
     list-style: none;
+    position: absolute;
+    z-index: 10;
 }
 
 .city-names li {
     margin: 0;
     padding: 0;
-    padding-left: 60px;
+    padding-left: 20%;
     padding-top: 25px;
+    width: 100%;
 }
 
-.ny-hover:hover {
-    background-image: url('triston-dunn-rfj_wOYQkus-unsplash.jpg');
+.city-names li a{
+    color: white;
+    text-decoration: none;
 }
 
-.chi-hover:hover {
-    background-image: url('aveedibya-dey-wRyQocoKOBA-unsplash.jpg');
-}
+.city-names a::after {
+    content: '';
+    width: 0;
+    height: .5px;
+    display: block;
+    background: rgb(255, 255, 255);
+    transition: .5s;
+  }
+  
+.city-names a:hover::after {
+    transition: 2s;
+    width: 100%;
+  }
 
-.la-hover:hover {
-    background-image: url('cedric-letsch-UZVlSjrIJ3o-unsplash.jpg');
+.blurred-bg {
+    background: url("pfw_ss23_backstage_acielle_style_du_monde_miu_miu_012.webp");
+    background-attachment: fixed;
+    width: 100%;
+    min-height: calc(100vh - 102px);
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
 }
 
 /* nyc subpage */
@@ -170,9 +198,10 @@ h4 {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 1px;
+    line-height: 35px;
     width: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
     margin-top: 50px
 }
 
