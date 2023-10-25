@@ -134,6 +134,8 @@ h4 {
     list-style: none;
     position: absolute;
     z-index: 10;
+    padding-top: 2.5%;
+    padding-left: 5%;
 }
 
 .city-names li {
