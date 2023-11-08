@@ -148,6 +148,14 @@ h4 {
     text-decoration: none;
 }
 
+.city-names li:nth-child(2) a:hover::after { /* chicago underline */
+    width: 114px;
+}
+
+.city-names li:nth-child(3) a:hover::after { /* los angeles underline */
+    width: 170px;
+}
+
 .city-names a::after {
     content: '';
     width: 0;
